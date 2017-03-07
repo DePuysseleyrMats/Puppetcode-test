@@ -42,9 +42,8 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class default {
-  package{'splunk':
-    ensure => 'present',
+node default {
+  include role::test
   }
 
 }

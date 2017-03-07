@@ -1,6 +1,5 @@
 language: ruby
 rvm:
   - 2.2
-env:
-  - '/home/travis/build/DePuysseleyrMats/Puppetcode-test/site/profile/manifests'
+  
 script: rake spec

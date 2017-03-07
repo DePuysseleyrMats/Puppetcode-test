@@ -1,1 +1,4 @@
-os: "centos"
+language : ruby
+rvm:
+ - 2.4
+ - jruby

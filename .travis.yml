@@ -1,6 +1,5 @@
 language: ruby
 rvm:
   - 2.2
-script: bundle exec rspec-puppet-init 
-script: rake spec
+
 

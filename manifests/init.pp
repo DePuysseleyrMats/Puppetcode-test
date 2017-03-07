@@ -43,6 +43,8 @@
 # Copyright 2017 Your name here, unless otherwise noted.
 #
 class testmodule7 {
-
+  package{'splunk':
+    ensure => 'present',
+  }
 
 }

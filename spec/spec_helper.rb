@@ -3,7 +3,7 @@ require 'rspec-puppet'
 
 
 RSpec.configure do |c|
-  c.module_path = ../site/profile/manifests
-  c.manifest_dir = ../site/profile/manifests
+  c.module_path = site/profile/manifests
+  c.manifest_dir = site/profile/manifests
 
 end

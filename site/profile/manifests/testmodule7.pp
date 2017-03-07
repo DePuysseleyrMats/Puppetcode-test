@@ -1,2 +1,5 @@
 class profile::testmodule7 {
-  package {'
+  package { 'openssl':
+  ensure => installed,
+  name   => $ssl,
+}

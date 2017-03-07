@@ -1,2 +1,2 @@
 class role::test
-  include profile::testmodule7
+  include profile::testmodule

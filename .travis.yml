@@ -2,4 +2,4 @@ language: ruby
 rvm:
   - 2.2
 
-script: cd site/profile && bundle exec rake
+script: rspec site/profile/spec/clasess/testmodule7_spec.rb

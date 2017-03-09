@@ -1,3 +1,4 @@
+[![Build Status](https://img.shields.io/travis/alexharv074/puppet-spacewalk.svg)](https://travis-ci.org/DePuysseleyrMats/Puppetcode-test)
 # Test
 
 #### Table of Contents

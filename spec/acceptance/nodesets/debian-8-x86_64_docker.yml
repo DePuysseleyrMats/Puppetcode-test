@@ -1,5 +1,7 @@
 HOSTS:
   debian-8-x64:
+    roles:
+      -master
     platform: debian-8-amd64
     hypervisor : docker
     image: debian:8

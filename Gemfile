@@ -14,6 +14,7 @@ gem 'nokogiri'
 gem 'unf_ext'
 gem 'serverspec'
 gem 'docker-api'
+gem 'docker'
 
 
 if puppetversion = ENV['PUPPET_GEM_VERSION']

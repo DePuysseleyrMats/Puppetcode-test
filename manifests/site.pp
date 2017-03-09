@@ -1,4 +1,4 @@
 node default {
-  include init
-  include apache
+  include test::init
+  include test::apache
 }

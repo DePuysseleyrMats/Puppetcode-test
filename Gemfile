@@ -13,6 +13,7 @@ gem 'beaker-rspec'
 gem 'nokogiri'
 gem 'unf_ext'
 gem 'serverspec'
+gem 'syck'
 gem 'docker'
 gem 'docker-api'
 

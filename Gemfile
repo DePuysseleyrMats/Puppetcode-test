@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
  
-group :test do
-  gem 'puppetlabs_spec_helper', :require => false
-end
- 
-gem 'facter'
+gem 'metadata-json-lint'
+gem 'puppetlabs_spec_helper', '>= 1.0.0'
+gem 'puppet-lint', '>= 1.0.0'
+gem 'facter', '>= 1.7.0'
+gem 'rspec-puppet'
 
 if puppetversion = ENV['PUPPET_GEM_VERSION']
   gem 'puppet', puppetversion, :require => false

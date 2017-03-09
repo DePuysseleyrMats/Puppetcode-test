@@ -4,5 +4,4 @@ describe 'init' do
     it { is_expected.to compile }
     it { is_expected.to have_resource_count(1) }
     it { is_expected.to contain_package('ntp') }
-    it { is_expected.to have_resource_count(100) }
   end

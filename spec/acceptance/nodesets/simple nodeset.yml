@@ -1,0 +1,7 @@
+HOSTS:
+  debian-73-x64:
+    platform: debian-7-amd64
+    hypervisor : vagrant
+    flavor: m1.small
+    image: debian-7-amd64-20141121
+    user: debian

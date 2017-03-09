@@ -1,7 +1,7 @@
 HOSTS:
   centos-7-x64:
     platform: el-7-x86_64
-    hypervisor : docker
+    hypervisor : vagrant
     image: centos:7
     docker_preserve_image: true
 CONFIG:

@@ -1,6 +1,4 @@
-class init {
+node default {
   include init
-  package { 'ntp':
-    ensure => 'installed',
-  }
+  include apache
 }

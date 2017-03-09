@@ -13,6 +13,8 @@ gem 'beaker-rspec'
 gem 'nokogiri'
 gem 'unf_ext'
 gem 'serverspec'
+gem 'docker'
+gem 'docker-api'
 
 if puppetversion = ENV['PUPPET_GEM_VERSION']
   gem 'puppet', puppetversion, :require => false

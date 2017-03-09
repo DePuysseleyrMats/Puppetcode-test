@@ -14,6 +14,7 @@ matrix:
   include:
   - rvm: 2.1.5
     env: PUPPET_GEM_VERSION='~> 3.0'
+    env: MODULE_PATH=/home/DePuysseleyrMats/Puppetcode-test/modules
  
     
 script: bundle exec rake spec

@@ -2,4 +2,5 @@ language: ruby
 rvm:
   - 2.2
   
+script: puppet config print modulepath --section master
 script: rake spec

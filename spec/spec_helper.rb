@@ -3,7 +3,7 @@ require 'rspec-puppet'
 require 'rspec-puppet/spec_helper'
 
 RSpec.configure do |c|
-  c.module_path = '/home/travis/build/DePuysseleyrMats/Puppetcode-test/'
-  c.manifest_dir = '/home/travis/build/DePuysseleyrMats/Puppetcode-test/'
+  c.module_path = '/home/travis/build/DePuysseleyrMats/Puppetcode-test/manifests'
+  c.manifest_dir = '/home/travis/build/DePuysseleyrMats/Puppetcode-test/manifests'
 
 end

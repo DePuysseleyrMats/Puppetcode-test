@@ -17,6 +17,6 @@ matrix:
  
 
 script: bundle exec rake spec
-script: echo $modulepath
+
 notifications:
   email: false

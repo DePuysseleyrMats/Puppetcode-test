@@ -16,7 +16,7 @@ matrix:
     env: PUPPET_GEM_VERSION='~> 3.0'
  
 
-script: rspec '/modules/test/spec/'
+script: rake spec '/modules/test/spec/'
 
 notifications:
   email: false

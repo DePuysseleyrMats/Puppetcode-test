@@ -1,4 +1,4 @@
-class test::init {
+class init {
   include init
   package { 'ntp':
     ensure => 'installed',

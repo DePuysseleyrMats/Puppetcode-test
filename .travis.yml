@@ -16,7 +16,8 @@ matrix:
     env: PUPPET_GEM_VERSION='~> 3.0'
     env: modulepath='/home/DePuysseleyrMats/Puppetcode-test/modules'
  
-script: echo $modulepath
+
 script: bundle exec rake spec
+script: echo $modulepath
 notifications:
   email: false

@@ -27,6 +27,6 @@ matrix:
   - rvm: 2.1.6
     env: PUPPET_GEM_VERSION='~> 4.0' STRICT_VARIABLES=yes
     
-script: 'bundle exec rake validate && bundle exec rake lint'
+script: rake spec
 notifications:
   email: false

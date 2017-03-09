@@ -1,3 +1,3 @@
 class init {
-
+  include init
 }

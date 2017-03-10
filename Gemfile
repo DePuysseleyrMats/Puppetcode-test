@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 ##test
-
+gem 'metadata-json-lint'
 gem 'puppetlabs_spec_helper'
 gem 'puppet-blacksmith'
 gem 'puppet-lint'

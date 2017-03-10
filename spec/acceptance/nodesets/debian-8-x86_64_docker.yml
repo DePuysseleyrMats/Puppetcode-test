@@ -3,7 +3,7 @@ HOSTS:
     roles:
       -master
     platform: debian-8-amd64
-    hypervisor : docker
+    hypervisor : vagrant
     image: debian:8
     docker_preserve_image: true
 CONFIG:

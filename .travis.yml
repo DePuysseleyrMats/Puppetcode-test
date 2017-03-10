@@ -15,7 +15,7 @@ before_install:
 matrix:
   include:
   - rvm: 2.2.5
-    env: PUPPET_GEM_VERSION='~> 4.0' BEAKER_set="debian-8-x86_64_docker" BEAKER_set="centos-7-x86_64_docker" DOCKER_HOST='localhost'
+    env: PUPPET_GEM_VERSION='~> 4.0' BEAKER_set="centos-7.0-64-puppet"
  
 
 script: bundle exec rake spec SPEC_OPTS="--format documentation" && bundle exec rake beaker

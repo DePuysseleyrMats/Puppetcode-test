@@ -1,13 +1,14 @@
 #tsssssssssssttttttttttttt
 HOSTS: 
-  centos-7-x64: 
+  centos-7.0-64-puppet: 
     docker_preserve_image: true
     hypervisor: vagrant
     image: "centos:7"
     platform: el-7-x86_64
     roles: 
       - master
-      
+    box: puppetlabs/centos-7.0-64-puppet
+    box_url: https://atlas.hashicorp.com/puppetlabs/boxes/centos-7.0-64-puppet
 CONFIG: 
   log_level: debug
   type: foss

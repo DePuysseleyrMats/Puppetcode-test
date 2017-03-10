@@ -18,7 +18,7 @@ matrix:
     env: PUPPET_GEM_VERSION='~> 4.0' BEAKER_set="centos-7.0-64-puppet"
  
 
-script: bundle exec rake spec SPEC_OPTS="--format documentation" && bundle exec rake beaker
+script: bundle exec rake spec SPEC_OPTS="--format documentation" 
 
 notifications:
   email: false

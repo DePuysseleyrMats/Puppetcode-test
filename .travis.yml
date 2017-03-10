@@ -16,7 +16,11 @@ matrix:
   - rvm: 2.1.5
     env: PUPPET_GEM_VERSION='~> 3.0' 
  
-
+deploy:
+  provider: puppetforge
+  user: "matsdp"
+  password:
+    secure: "YOUR ENCRYPTED PASSWORD"
 script: bundle exec rake spec SPEC_OPTS="--format documentation" 
 
 notifications:

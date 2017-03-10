@@ -16,6 +16,7 @@ gem 'serverspec'
 gem 'docker-api'
 gem 'docker'
 gem 'vagrant'
+gem 'vagrant-wrapper'
 
 
 if puppetversion = ENV['PUPPET_GEM_VERSION']

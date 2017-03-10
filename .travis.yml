@@ -1,7 +1,7 @@
 sudo: false
 #blabla
 services:
-  - docker
+  - vagrant
 language: ruby
 cache: bundler
 bundler_args: --without system_tests

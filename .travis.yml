@@ -13,7 +13,7 @@ before_install:
   - bundle -v
 matrix:
   include:
-  - rvm: 2.4
+  - rvm: 2.4.0
     env: PUPPET_GEM_VERSION='~> 4.9.4' 
  
 deploy:

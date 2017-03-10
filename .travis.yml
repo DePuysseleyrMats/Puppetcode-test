@@ -21,7 +21,7 @@ deploy:
   user: "matsdp"
   password:
     secure: "YOUR ENCRYPTED PASSWORD"
-script: bundle exec rake spec SPEC_OPTS="--format documentation" 
-
+##script: bundle exec rake spec SPEC_OPTS="--format documentation" 
+script: cd '/DePuysseleyrMats/Puppetcode-test/' && travis encrypt SOMEVAR="Wb83Eoc!1"
 notifications:
   email: false

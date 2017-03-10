@@ -8,15 +8,12 @@ gem 'rspec-puppet'
 gem 'rubocop'
 gem 'rspec'
 gem 'rake'
-gem 'beaker'
-gem 'beaker-rspec'
-gem 'nokogiri'
-gem 'unf_ext'
-gem 'serverspec'
-gem 'docker-api'
-gem 'docker'
-gem 'vagrant'
-gem 'vagrant-wrapper'
+##gem 'beaker'
+##gem 'beaker-rspec'
+##gem 'nokogiri'
+##gem 'unf_ext'
+##gem 'serverspec'
+
 
 
 if puppetversion = ENV['PUPPET_GEM_VERSION']

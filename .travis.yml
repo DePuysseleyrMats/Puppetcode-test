@@ -20,8 +20,8 @@ deploy:
   provider: puppetforge
   user: "matsdp"
   password:
-    secure: "YOUR ENCRYPTED PASSWORD"
-##script: bundle exec rake spec SPEC_OPTS="--format documentation" 
-script: travis encrypt SOMEVAR="Wb83Eoc!1"
+    secure: ""HuC3a+/vBuwMc1gataSkWrixytr2iMk48RQn6Sqd/a5gzLNDHcfN95q9Aa4a+P5MZyaT6FjlXlJq7Yzrn5cIeFXCKHbrmuvIj73YdgH7lDrimPkD53DrA92YQ+oUbwpYi1o4OoNu+EKfvUPUmRslueE7M1of8MTSwOItaikJaS3vypR/afOyCMGSVU0xIJxUEkSxnQ2lzbuzELclCKJ34u2hr6jLt11aC9JA8AkxXlvNM/qwQyHec4pwevqzGHlhSm8BKdZxoYgMxGcHz7rlaA7BkMVVm7+gCINX2RqKbWTXTUgRGQ5yxfTKYE6dBKx+AYwrwUYF/T9p/xFzh7oGniutaQTj6qfGrmjZLKOkBr6azLeOq1RrSeS7jBs1PAVtCT/WUIDXKO2Yt4txqEYhlCwgYGyJv+v2XoK1Ro0xpLPqlXZEOMogz8uz//67vSByRMTwVRJ9KRsvpZyBH9GZ2XkFMC7woVdZOVFFquL8/DzVIX+o/R2Q2mYEKH97Daf5z2WcABY9062f8r/zJoMX5+XHVOrQP+3g2Klg8n/aTMHT+OYVo/hMKkDVYEfefeNPrgetVUYeO6VCrUCXMESw4CaYMmpbHAORZQ3DzZjnLKVaieed7KpruVoehayMPhCPsk98eHr9Ry2FORZGiPD8qCFSW8fUk+SHmXPd6ezEHI4="
+script: bundle exec rake spec SPEC_OPTS="--format documentation" 
+
 notifications:
   email: false

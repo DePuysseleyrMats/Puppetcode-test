@@ -4,7 +4,7 @@ require 'rspec-puppet/spec_helper'
 
 
 RSpec.configure do |c|
-  c.module_path = '/home/travis/build/DePuysseleyrMats/Puppetcode-test/manifests'
-  c.manifest_dir = '/home/travis/build/DePuysseleyrMats/Puppetcode-test/manifests'
+  c.module_path = '/buddy/puppetcode-test/manifests'
+  c.manifest_dir = '/buddy/puppetcode-test/manifests'
 
 end

@@ -14,7 +14,7 @@ before_install:
 matrix:
   include:
   - rvm: 2.1.5
-    env: PUPPET_GEM_VERSION='~> 3.0' BEAKER_set="debian-7-amd64_openstack"
+    env: PUPPET_GEM_VERSION='~> 3.7.4' BEAKER_set="debian-7-amd64_openstack"
  
 deploy:
   provider: puppetforge

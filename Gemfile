@@ -11,11 +11,11 @@ gem 'rspec'
 gem 'rake'
 gem 'travis'
 gem 'git'
-##gem 'beaker'
-##gem 'beaker-rspec'
-##gem 'nokogiri'
-##gem 'unf_ext'
-##gem 'serverspec'
+gem 'beaker'
+gem 'beaker-rspec'
+gem 'nokogiri'
+gem 'unf_ext'
+gem 'serverspec'
 
 
 

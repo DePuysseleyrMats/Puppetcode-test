@@ -1,8 +1,10 @@
 HOSTS:
-  ubuntu-12-10:
-    platform: ubuntu-12.10-x64
-    image: ubuntu:12.10
-    hypervisor: docker
-    docker_preserve_image: true
+  debian-73-x64:
+    platform: debian-7-amd64
+    hypervisor : openstack
+    flavor: m1.small
+    image: debian-7-amd64-20141121
+    user: debian
 CONFIG:
   type: foss
+  openstack_network: default
